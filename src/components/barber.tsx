@@ -38,7 +38,7 @@ export default function Barbers() {
   }
 
   return (
-    <div className="flex text-center text-[60px] text-yellow-300/80 -mt-24">
+    <div className="flex text-center text-[60px] text-yellow-300/80 m-5">
 
         <div className="bg-[url('/pictures/bg-2.png')] bg-fit bg-contain bg-no-repeat bg-center">
             <div className="flex items-center justify-center h-full">
