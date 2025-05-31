@@ -24,3 +24,68 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* CALENDAR STYLES  */
+.fc-button:hover {
+  background-color: #383224;
+}
+
+.fc-col-header-cell {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(236, 207, 78);
+}
+
+.fc-day-today {
+  background-color: #2e2410 !important;
+  opacity: 0.7;
+  color: white;
+}
+
+.fc-event {
+  height: 40px;
+  background-color: #504234;
+  color: rgb(220, 188, 103);
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.fc-event:hover {
+  background-color: #7f6030;
+  color: yellow;
+}
+
+.fc-daygrid-day-frame {
+  padding: 10px;
+  margin: 1px;
+}
+
+/* NOW, NEXT, PREV BUTTONS */
+.fc-button-group > .fc-button {
+  background: #765b43;
+  border: none;
+  color: #fff;
+}
+
+/* UNAVAILABLE EVENTS */
+.fc-event.unavailable {
+  background-color: #e53e3e;
+  color: white;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  .fc-toolbar-title {
+    font-size: 16px;
+  }
+  
+  .fc-event {
+    font-size: 12px;
+  }
+}

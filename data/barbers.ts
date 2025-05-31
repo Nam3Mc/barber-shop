@@ -5,16 +5,64 @@ export const barbers = [
     "photo": "http://localhost:3000/pictures/aaron.png",
     "appointments": [
       {
-        "date": "2025-05-21",
-        "time": "10:00 AM",
-        "client": "John Doe",
-        "service": "Fade & Beard Trim"
+        "start": "2025-06-02T10:00:00",
+        "end": "2025-06-02T10:30:00",
+        "client": "Maria Lopez",
+        "title": "Haircut"
       },
       {
-        "date": "2025-05-21",
-        "time": "02:00 PM",
+        "start": "2025-06-02T14:00:00",
+        "end": "2025-06-02T14:45:00",
+        "client": "Carlos Martinez",
+        "title": "Beard Trim"
+      },
+      {
+        "start": "2025-06-03T11:00:00",
+        "end": "2025-06-03T11:30:00",
+        "client": "John Doe",
+        "title": "Fade & Beard Trim"
+      },
+      {
+        "start": "2025-06-03T15:00:00",
+        "end": "2025-06-03T15:30:00",
+        "client": "Linda Chavez",
+        "title": "Hair Wash & Cut"
+      },
+      {
+        "start": "2025-06-04T11:00:00",
+        "end": "2025-06-04T12:00:00",
         "client": "Alex Smith",
-        "service": "Haircut"
+        "title": "Haircut"
+      },
+      {
+        "start": "2025-06-04T16:00:00",
+        "end": "2025-06-04T16:45:00",
+        "client": "Kevin Johnson",
+        "title": "Fade"
+      },
+      {
+        "start": "2025-06-05T09:30:00",
+        "end": "2025-06-05T10:00:00",
+        "client": "Samantha Torres",
+        "title": "Beard Trim"
+      },
+      {
+        "start": "2025-06-06T13:00:00",
+        "end": "2025-06-06T13:45:00",
+        "client": "Brian Anderson",
+        "title": "Haircut & Beard Trim"
+      },
+      {
+        "start": "2025-06-07T12:00:00",
+        "end": "2025-06-07T12:30:00",
+        "client": "Emily Brown",
+        "title": "Hair Styling"
+      },
+      {
+        "start": "2025-06-08T11:30:00",
+        "end": "2025-06-08T12:00:00",
+        "client": "George White",
+        "title": "Fade"
       }
     ],
     "clients": [
@@ -37,16 +85,16 @@ export const barbers = [
     "photo": "http://localhost:3000/pictures/abraham.png",
     "appointments": [
       {
-        "date": "2025-05-21",
-        "time": "11:00 AM",
+        "start": "2025-05-21",
+        "end": "11:00 AM",
         "client": "Michael Lee",
-        "service": "Classic Haircut"
+        "title": "Classic Haircut"
       },
       {
-        "date": "2025-05-21",
-        "time": "03:30 PM",
+        "start": "2025-05-21",
+        "end": "03:30 PM",
         "client": "Chris Johnson",
-        "service": "Shave"
+        "title": "Shave"
       }
     ],
     "clients": [
@@ -69,16 +117,16 @@ export const barbers = [
     "photo": "http://localhost:3000/pictures/mosses.png",
     "appointments": [
       {
-        "date": "2025-05-21",
-        "time": "09:30 AM",
+        "start": "2025-05-21",
+        "end": "09:30 AM",
         "client": "Kevin Brown",
-        "service": "Undercut"
+        "title": "Undercut"
       },
       {
-        "date": "2025-05-21",
-        "time": "01:00 PM",
+        "start": "2025-05-21",
+        "end": "01:00 PM",
         "client": "Brandon White",
-        "service": "Mohawk"
+        "title": "Mohawk"
       }
     ],
     "clients": [
