@@ -1,12 +1,13 @@
 export default function NavBar() {
   return (
-    <div className="bg-[url('/pictures/logo.png')] bg-contain bg-no-repeat bg-center h-[300px] w-screen m-5 flex items-center justify-center gap-10">
-      <div className="flex items-center justify-center w-[40%] h-[60%] bg-black/50 text-white text-xl rounded m-14">
-        a
-      </div>
-      <div className="flex items-center justify-center w-[40%] h-[60%] bg-black/50 text-white text-xl rounded m-14">
-        b
-      </div>
-    </div>
+    <nav className="border-b border-yellow-100/80">
+      <ol className="p-5 text-center flex justify-evenly">
+        <a href="services" className="p-2" >SERRVICES</a>
+        <a href="galery"  className="p-2">GALERY</a>
+        <a href="/" > <span className="text-3xl text-yellow-100/80">BARBERSHOP NAME </span></a>
+        <a href="about" className="p-2">ABOUT</a>
+        <a href="contact" className="p-2">CONTACT</a>
+      </ol>
+    </nav>
   )
 }
