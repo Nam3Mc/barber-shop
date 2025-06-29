@@ -1,11 +1,11 @@
 'use client'
 
-import LadingPage from "@/components/landingPage"
+import LandingPage from "@/components/landingPage"
 
 export default function Home() {
   return (
-    <div className="text-3xl">
-      <LadingPage />
+    <div className="text-3xl max-w-[1120px]">
+      <LandingPage />
     </div>
   )
 }

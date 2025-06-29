@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <nav className="border-b border-yellow-100/80">
+    <nav className="border-b border-yellow-100/80 max-w-[1120px]">
       <ol className="p-5 text-center flex justify-evenly">
         <a href="services" className="p-2" >SERRVICES</a>
         <a href="galery"  className="p-2">GALERY</a>

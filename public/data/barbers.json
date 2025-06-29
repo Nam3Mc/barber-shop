@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Juan Pérez",
+    "specialty": "Corte de cabello y afeitado",
+    "photo": "http://localhost:3000/pictures/aaron.png",
+    "introduction": "Soy un barbero con 10 años de experiencia especializado en cortes clásicos y modernos.",
+    "appointments": [
+      {
+        "date": "2025-07-01T10:00:00",
+        "clientName": "Carlos Gómez",
+        "service": "Corte de cabello"
+      },
+      {
+        "date": "2025-07-02T14:00:00",
+        "clientName": "Ana Martínez",
+        "service": "Afeitado"
+      }
+    ],
+    "clients": [
+      {
+        "id": 1,
+        "name": "Carlos Gómez",
+        "phone": "555-1234"
+      },
+      {
+        "id": 2,
+        "name": "Ana Martínez",
+        "phone": "555-5678"
+      }
+    ],
+    "gallery": [
+      "https://example.com/gallery/juan1.jpg",
+      "https://example.com/gallery/juan2.jpg"
+    ]
+  },
+  {
+    "name": "María López",
+    "specialty": "Coloración y peinados",
+    "photo": "http://localhost:3000/pictures/mosses.png",
+    "introduction": "Especialista en coloración, peinados modernos y cuidado capilar.",
+    "appointments": [
+      {
+        "date": "2025-07-03T11:30:00",
+        "clientName": "Lucía Torres",
+        "service": "Coloración"
+      },
+      {
+        "date": "2025-07-04T16:00:00",
+        "clientName": "Pedro Díaz",
+        "service": "Peinado"
+      }
+    ],
+    "clients": [
+      {
+        "id": 3,
+        "name": "Lucía Torres",
+        "phone": "555-9876"
+      },
+      {
+        "id": 4,
+        "name": "Pedro Díaz",
+        "phone": "555-4321"
+      }
+    ],
+    "gallery": [
+      "https://example.com/gallery/maria1.jpg",
+      "https://example.com/gallery/maria2.jpg"
+    ]
+  },
+  {
+    "name": "Carlos Ramírez",
+    "specialty": "Barba y bigote",
+    "photo": "http://localhost:3000/pictures/abraham.png",
+    "introduction": "Apasionado por el arte del afeitado y el cuidado de la barba.",
+    "appointments": [
+      {
+        "date": "2025-07-05T09:00:00",
+        "clientName": "Andrés Mejía",
+        "service": "Afeitado clásico"
+      },
+      {
+        "date": "2025-07-06T13:30:00",
+        "clientName": "Sofía Herrera",
+        "service": "Corte de cabello"
+      }
+    ],
+    "clients": [
+      {
+        "id": 5,
+        "name": "Andrés Mejía",
+        "phone": "555-2468"
+      },
+      {
+        "id": 6,
+        "name": "Sofía Herrera",
+        "phone": "555-1357"
+      }
+    ],
+    "gallery": [
+      "https://example.com/gallery/carlos1.jpg",
+      "https://example.com/gallery/carlos2.jpg"
+    ]
+  },
+  {
+    "name": "Ana Fernández",
+    "specialty": "Cortes infantiles y juveniles",
+    "photo": "http://localhost:3000/pictures/ana.png",
+    "introduction": "Me encanta trabajar con niños y jóvenes, creando estilos divertidos y modernos.",
+    "appointments": [
+      {
+        "date": "2025-07-07T15:00:00",
+        "clientName": "Valentina Ruiz",
+        "service": "Corte infantil"
+      },
+      {
+        "date": "2025-07-08T10:30:00",
+        "clientName": "Mateo Vargas",
+        "service": "Corte juvenil"
+      }
+    ],
+    "clients": [
+      {
+        "id": 7,
+        "name": "Valentina Ruiz",
+        "phone": "555-8642"
+      },
+      {
+        "id": 8,
+        "name": "Mateo Vargas",
+        "phone": "555-7531"
+      }
+    ],
+    "gallery": [
+      "https://example.com/gallery/ana1.jpg",
+      "https://example.com/gallery/ana2.jpg"
+    ]
+  }
+]
